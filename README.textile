@@ -1,0 +1,3 @@
+Scrapes session information (title, speakers, url, start and end times, and room) from lanyrd event pages. Assumes your event is one-day only (mine is!).
+
+Since Lanyrd doesn't have a field for location, I use the convention of putting "Room: 123" as the only thing on the first line of the abstract. This script assumes that and, if found, will grab the room info (3 characters) and remove that bit from the saved abstract.
